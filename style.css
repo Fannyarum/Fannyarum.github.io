@@ -2,7 +2,7 @@
 
 
 :root{
-  --blue:#f8e91c;
+  --yellow:#f8d618;
 }
 
 *{
@@ -16,7 +16,7 @@
 }
 
 *selection{
-  background:var(--blue);
+  background:var(--yellow);
   color:#333;
 }
 
@@ -30,7 +30,7 @@ html::webkit-scrollbar{
 }
 
 html::webkit-scrollbar-track{
-  background:var(--blue);
+  background:var(--yellow);
 }
 
 body{
@@ -46,7 +46,7 @@ section{
 
 .btn{
   padding:.7rem 3rem;
-  background:var(--blue);
+  background:var(--yellow);
   color:#fff;
   cursor:pointer;
   margin-top:1rem;
@@ -61,7 +61,7 @@ section{
 }
 
 .btn:hover{
-  background:#aeb90f;
+  background:#af8b14;
 }
 
 .heading{
@@ -74,7 +74,7 @@ section{
 }
 
 .heading span{
-  color:var(--blue);
+  color:var(--yellow);
 }
 
 header{
@@ -97,7 +97,7 @@ header .user img{
   border-radius: 50%;
   object-fit:cover;
   margin-bottom: 1 re,;
-  border:.7rem solid var(--blue);
+  border:.7rem solid var(--yellow);
 }
 
 header .user .name{
@@ -130,11 +130,11 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-  background:var(--blue);
+  background:var(--yellow);
 }
 
 header .navbar ul li a:hover{
-  background:var(--blue);
+  background:var(--yellow);
 }
 
 #menu{
@@ -167,7 +167,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-  color:var(--blue);
+  color:var(--yellow);
 }
 
 .home p{
@@ -191,7 +191,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
   font-size:2rem;
-  color: var(--blue);
+  color: var(--yellow);
   padding: 1rem 0;
   font-weight: normal;
 }
@@ -218,7 +218,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
   font-size:4rem;
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 .about .row .counter .box h3{
@@ -273,7 +273,7 @@ header .navbar ul li a:hover{
   text-align: center;
   font-size: 2rem;
   color: #fff;
-  background: var(--blue);
+  background: var(--yellow);
 }
 
 .portofolio .box-container{
@@ -361,7 +361,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
   padding-right: 3rem;
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 .top{
@@ -412,7 +412,7 @@ footer p:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--blue);
+  background: var(--yellow);
   border-radius: 50%;
   margin: 22px 10px;
   color: #101105;
@@ -420,7 +420,7 @@ footer p:nth-child(2) {
 }
 .sosial a:hover {
   transform: scale(1.3);
-  background-color: #aeb90f;
+  background-color: #af8b14;
   
 }
 .end{
