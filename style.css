@@ -391,12 +391,14 @@ footer span{
 footer p:nth-child(1) {
   font-size: 30px;
   color: white;
+  text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
 }
 footer p:nth-child(2) {
   color: #fcfcfc;
   font-size: 17px;
+  position: absolute;
   width: 500px;
   text-align: center;
   line-height: 26px;
@@ -484,6 +486,9 @@ footer p:nth-child(2) {
    }
   .contact .row form{
     margin:3rem 0;
+  }
+  .dudi{
+    font-size:100%;
   }
   .dudi .sosial .p{
     width: 50%;
