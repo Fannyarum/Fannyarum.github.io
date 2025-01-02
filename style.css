@@ -137,6 +137,9 @@ header .navbar ul li a:hover{
   background:var(--yellow);
 }
 
+header.toggle {
+  background-color: #333;
+}
 #menu{
   position:fixed;
   top:2 rem; right:2rem;
